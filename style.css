@@ -1,0 +1,49 @@
+body {
+  background-color: #0e1117;
+  color: #ffffff;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  border: 2px solid #58a6ff;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: #161b22;
+  width: 300px;
+}
+
+#counter {
+  font-size: 4rem;
+  margin: 20px 0;
+  color: #58a6ff;
+}
+
+.buttons button {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #238636;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.buttons button:nth-child(2) {
+  background-color: #da3633;
+}
+
+.buttons button:nth-child(3) {
+  background-color: #6e40c9;
+}
+
+.buttons button:hover {
+  opacity: 0.9;
+}
